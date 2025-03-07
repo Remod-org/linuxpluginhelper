@@ -1,6 +1,6 @@
 #!/bin/sh
 #    Linux plugin helper
-#    Copyright (c) RFC1920 <desolationoutpostpve@gmail.com>
+#    Copyright (c) 2025 RFC1920 <desolationoutpostpve@gmail.com>
 #
 #    This program is free software; you can redistribute it and/or
 #    modify it under the terms of the GNU General Public License
@@ -20,6 +20,7 @@
 
 # See the README.md associated with this script
 # https://github.com/Remod-org/linuxpluginhelper
+# No AI was used in the creation of this script.  However, Google was used.
 
 # VARS
 PLUGIN_FOLDER=/home/remod/serverfiles/oxide/plugins/
