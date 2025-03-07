@@ -16,6 +16,8 @@ may also cause server startup to abort.
 
 ## Usage
 
+<b>You need to edit the script to adjust it to your use case</b>
+
 Set PLUGIN_FOLDER to the target location of your Rust plugins.
   Include the trailing slash.
 
