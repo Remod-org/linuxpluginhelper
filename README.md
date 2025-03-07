@@ -39,7 +39,10 @@ SET NOISY=0 to process files silently.  Set NOISY=1 for debugging.
 SET CRON=1 to allow messages to be sent to cron email to note changes.
 
 In my case, I added the following to my crontab to update between 5am and 8pm every minute;
+
+```
 * 5-20 * * * /home/remod/plugins.sh
+```
 
 SET COMMIT=1 to actually perform the file copies
 
