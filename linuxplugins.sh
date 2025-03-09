@@ -24,7 +24,7 @@
 
 # VARS
 PLUGIN_FOLDER=/home/remod/serverfiles/oxide/plugins/
-LOCS=(~/git:2 /data:1)
+declare -a LOCS=(~/git:2 /data:1)
 NOISY=0
 COMMIT=1
 CRON=1
@@ -40,7 +40,7 @@ cd ${PLUGIN_FOLDER}
 for i in `ls *.cs`; do
 	if [[ ${NOISY} -eq 1 ]]; then echo -e "\nLooking for $i"; fi
 
-	for loc in ${LOCS}; do
+	for loc in "${LOCS[@]}"; do
 		IFS=: read -r folder depth <<< "${loc}"
 		FOUND=`find ${folder} -maxdepth ${depth} -name ${i}`
 		if [[ -f ${FOUND} ]]; then
